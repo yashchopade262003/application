@@ -24,6 +24,9 @@ public class custermerRegester extends HttpServlet {
 		String pass = req.getParameter("pass");
 
 	String name= new String ("abs");
+String name= new String ("abs");
+String name= new String ("abs");
+String name= new String ("abs");
 		try {
 			Class.forName("org.postgresql.Driver");
 			Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/shoppingkart?user=postgres&password=root");
